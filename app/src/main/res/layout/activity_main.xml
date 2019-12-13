@@ -54,8 +54,8 @@ tools:context=".MainActivity">
 
             <TextView
                 android:id="@+id/tvhappyevent"
-                android:layout_width="80dp"
-                android:layout_height="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
                 android:gravity="center"
                 android:paddingLeft="50dp"
                 android:singleLine="true"
@@ -197,7 +197,7 @@ tools:context=".MainActivity">
         </LinearLayout>
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/buttonSanta"
             android:layout_width="300dp"
             android:layout_height="43dp"
             android:layout_alignRight="@id/LinearLayout"
@@ -206,19 +206,21 @@ tools:context=".MainActivity">
             android:layout_marginEnd="56dp"
             android:layout_marginRight="56dp"
             android:background="@color/colorPrimaryDark"
+            android:onClick="santaButton"
             android:text="Santa's List"
             android:textColor="#fff"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/buttonList"
             android:layout_width="300dp"
             android:layout_height="43dp"
             android:layout_alignRight="@id/LinearLayout"
             android:layout_marginTop="332dp"
             android:layout_marginEnd="56dp"
             android:background="@color/colorPrimaryDark"
+            android:onClick="myListButton"
             android:text="Your List"
             android:textColor="#fff"
             app:layout_constraintEnd_toEndOf="parent"

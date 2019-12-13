@@ -1,9 +1,11 @@
 package com.example.gumdropv02
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.view.View
+import android.widget.Button
 import android.widget.TextView
 import java.text.SimpleDateFormat
 import java.util.*
@@ -15,6 +17,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var txtTimerMinute:TextView
     private lateinit var txtTimerSecond:TextView
     private lateinit var tvEvent: TextView
+    private lateinit var santaListButton: Button
+    private lateinit var myListButton: Button
     private lateinit var handler: Handler
     private lateinit var runnable:Runnable
 
@@ -73,5 +77,15 @@ class MainActivity : AppCompatActivity() {
             }
         }
         handler.postDelayed(runnable, 1 * 1000)
+    }
+
+    fun santaButton (view:View){
+        val intent = Intent(this, SantaListActivity::class.java).apply {}
+        startActivity(intent)
+    }
+
+    fun myListButton (view:View) {
+        val intent = Intent(this, MyListActivity::class.java).apply {}
+        startActivity(intent)
     }
 }
