@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Gumdropv02</string>
+    <string name="countdown">Countdown</string>
+    <string name="countdownleft">CountdownLeft</string>
 </resources>
