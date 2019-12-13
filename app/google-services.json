@@ -15,6 +15,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "400030454975-3lop0dpaop2ql4eu10p4pot1rqb0r3vr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gumdrop.gumdropv02",
+            "certificate_hash": "d47e6a6112c01f1a1c75065306edb79679ada6b2"
+          }
+        },
+        {
+          "client_id": "400030454975-qo1m3j2kh5819calu3apjop4kea651vk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gumdrop.gumdropv02",
+            "certificate_hash": "17d62ea9f9e45d2b8ce14166123a8f38f8161648"
+          }
+        },
+        {
           "client_id": "400030454975-gfe847q2d6lo0bbac0sb2ivc4tkjtbtv.apps.googleusercontent.com",
           "client_type": 3
         }

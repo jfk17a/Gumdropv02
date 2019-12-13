@@ -80,7 +80,7 @@ class MainActivity : AppCompatActivity() {
         handler.postDelayed(runnable, 1 * 1000)
     }
 
-    fun santaButton (view:View){
+    fun santaButton (view: View){
         val intent = Intent(this, SantaListActivity::class.java).apply {}
         startActivity(intent)
     }
