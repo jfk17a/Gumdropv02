@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "400030454975",
+    "firebase_url": "https://gumdrop-74383370.firebaseio.com",
+    "project_id": "gumdrop-74383370",
+    "storage_bucket": "gumdrop-74383370.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400030454975:android:a86f4b61a55d02673ce20a",
+        "android_client_info": {
+          "package_name": "com.example.gumdropv01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400030454975-b8lqdokqur870482klpjg151e9ulstf9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gumdropv01",
+            "certificate_hash": "20ab52bc6cba8e40c8ab06e9011e1bab249ef774"
+          }
+        },
+        {
+          "client_id": "400030454975-ivg0eljg5fod9m2lrrf7tsf4do99nfpd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gumdropv01",
+            "certificate_hash": "8d66de143524ac261f0d9e86bd0deeac2dd84ef9"
+          }
+        },
+        {
+          "client_id": "400030454975-jcipul5vkkr25888dvhofm9tv64bpedh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gumdropv01",
+            "certificate_hash": "d47e6a6112c01f1a1c75065306edb79679ada6b2"
+          }
+        },
+        {
+          "client_id": "400030454975-gfe847q2d6lo0bbac0sb2ivc4tkjtbtv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZRT69fQu8mwuVyugvgyH8n2s0zBAEwWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400030454975-gfe847q2d6lo0bbac0sb2ivc4tkjtbtv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400030454975:android:cae77ea9a62532953ce20a",
+        "android_client_info": {
+          "package_name": "com.example.gumdropv02"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400030454975-gfe847q2d6lo0bbac0sb2ivc4tkjtbtv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZRT69fQu8mwuVyugvgyH8n2s0zBAEwWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400030454975-gfe847q2d6lo0bbac0sb2ivc4tkjtbtv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
