@@ -3,7 +3,7 @@ package com.gumdrop.gumdropv02
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.gumdropv02.R
+import com.gumdrop.gumdropv02.R
 import android.os.Handler
 import android.view.View
 import android.widget.Button
@@ -85,7 +85,7 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-    fun myListButton (view:View) {
+    fun myListButton (view: View) {
         val intent = Intent(this, MyListActivity::class.java).apply {}
         startActivity(intent)
     }
