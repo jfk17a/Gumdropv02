@@ -1,7 +1,8 @@
-package com.example.gumdropv02
+package com.gumdrop.gumdropv02
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.gumdropv02.R
 
 class MainActivity : AppCompatActivity() {
 
